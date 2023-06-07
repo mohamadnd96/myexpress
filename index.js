@@ -5,7 +5,7 @@ const port = process.env.PORT || 8000
 
 app.get('/test', async function (req, res) {
 
-    res.send({page:"test"})
+    res.send({page:"test ya 5ara"})
 })
 
 app.get('/', async function (req, res) {
